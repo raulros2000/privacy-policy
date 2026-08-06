@@ -7,7 +7,7 @@ de todos los juegos, con **una subcarpeta por juego**:
 privacy-policy/
 ├── index.html            # índice público con enlaces a todos los juegos
 ├── bloque-rojo/          # Bloque Rojo (privacidad, términos, eliminar cuenta)
-└── bloques-8x8/          # Bloques 8×8 (privacidad, términos)
+└── bloques-8x8/          # Zendoku (privacidad, términos)
 ```
 
 Cada página incluye los 4 idiomas (es/en/pt/it) con anclas `#es #en #pt #it`.
@@ -24,7 +24,7 @@ Cada página incluye los 4 idiomas (es/en/pt/it) con anclas `#es #en #pt #it`.
 
 | Juego | Fuente en la app | URL pública en uso |
 |-------|------------------|--------------------|
-| **Bloques 8×8** | `bloques_tablero_8x8/lib/core/legal/legal_texts.dart` | La de este repo (pendiente de publicar) |
+| **Zendoku** | `bloques_tablero_8x8/lib/core/legal/legal_texts.dart` | La de este repo (publicada y en línea) |
 | **Bloque Rojo** | `bloque_rojo/lib/core/legal/legal_texts.dart` | ⚠️ Aún apunta al repo antiguo `bloque-rojo-legal`; migrar aquí con su próxima actualización de app (cambiar `kPrivacyPolicyUrl`/`kTermsUrl` y la ficha de Play). Hasta entonces, mantener el repo antiguo publicado. |
 
 ## Añadir un juego nuevo
