@@ -7,7 +7,7 @@ de todos los juegos, con **una subcarpeta por juego**:
 privacy-policy/
 ├── index.html            # índice público con enlaces a todos los juegos
 ├── bloque-rojo/          # Bloque Rojo (privacidad, términos, eliminar cuenta)
-└── bloques-8x8/          # Zendoku (privacidad, términos)
+└── bloques-8x8/          # Zendoku (privacidad, términos, eliminar cuenta)
 ```
 
 Cada página incluye los 4 idiomas (es/en/pt/it) con anclas `#es #en #pt #it`.
